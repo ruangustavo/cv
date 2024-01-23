@@ -74,7 +74,7 @@ export const RESUME_DATA = {
 			title: "Hackathon: Chat-bot API",
 			techStack: ["Python", "Fast API"],
 			description:
-				"Uma API alimentada por inteligência artificial para atendimento de clientes e integração com mecanismo de busca a um site de ofertas onlines",
+				"Uma API alimentada por inteligência artificial para atendimento de clientes e integração com mecanismo de busca de um site de ofertas onlines.",
 			link: {
 				label: "Hackathon: Chat-bot API",
 				href: "https://github.com/ruangustavo/hackathon-chatbot-api",
@@ -84,7 +84,7 @@ export const RESUME_DATA = {
 			title: "Portal de Notícias",
 			techStack: ["Python", "Django", "Bootstrap"],
 			description:
-				"Um portal de notícias com sistema de autenticação e autorização de usuários, paginação, caching e mais",
+				"Um portal de notícias com sistema de autenticação e autorização de usuários, paginação, caching e mais.",
 			link: {
 				label: "Portal de Notícias",
 				href: "https://github.com/ruangustavo/portal-de-noticias",
@@ -94,7 +94,7 @@ export const RESUME_DATA = {
 			title: "IFRN Calc",
 			techStack: ["Typescript", "Next.js", "Tailwind CSS", "Shadcn UI"],
 			description:
-				"Uma plataforma calcula as médias necessárias para ser aprovado em todas as disciplina do IFRN. Tem integração OAuth com o portal da escola para calcular as médias de maneira automática.",
+				"Uma plataforma que calcula as médias necessárias para ser aprovado em todas as disciplina do IFRN. Tem integração OAuth com o portal da escola para calcular as médias de maneira automática.",
 			link: {
 				label: "IFRN Calc",
 				href: "https://github.com/ruangustavo/ifrncalc",
