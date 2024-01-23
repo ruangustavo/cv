@@ -61,7 +61,7 @@ export const CommandMenu = ({ links }: Props) => {
 								window.print();
 							}}
 						>
-							<span>Print</span>
+							<span>Imprimir</span>
 						</CommandItem>
 					</CommandGroup>
 					<CommandGroup heading="Links">
