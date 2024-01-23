@@ -1,278 +1,104 @@
-import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
-} from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { GitHubIcon, LinkedInIcon } from "@/components/icons";
+import { ClevertechLogo } from "@/images/logos";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
-  about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
-  summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
-  contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
-    social: [
-      {
-        name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
-        icon: GitHubIcon,
-      },
-      {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
-        icon: LinkedInIcon,
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
-      },
-    ],
-  },
-  education: [
-    {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
-    },
-  ],
-  work: [
-    {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
-      description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
-    },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
-    },
-  ],
-  skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
-  ],
-  projects: [
-    {
-      title: "Consultly",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-      ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
-    },
-    {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
-    },
-  ],
+	name: "Ruan Gustavo",
+	initials: "RG",
+	location: "Rio Grande do Norte, Brasil",
+	locationLink: "https://www.google.com/maps/place/Rio+Grande+do+Norte",
+	about:
+		"Desenvolvedor full-stack focado na criação de produtos com atenção extra aos detalhes",
+	summary:
+		"Como desenvolvedor full-stack, participei da construção de alguns produtos do 0 ao 1. Atualmente, trabalho principalmente com as tecnologias Python e Typescript, especificamente, os frameworks Django e React para construção de produtos escaláveis. Comecei a desenvolver em 2020 utilizando a linguagem Python, então tenho quatro anos de experiência com ela.",
+	avatarUrl: "https://github.com/ruangustavo.png",
+	personalWebsiteUrl: "https://github.com/ruangustavo",
+	contact: {
+		email: "dev.ruangustavo@gmail.com",
+		tel: "+55 84 98160-2938",
+		social: [
+			{
+				name: "GitHub",
+				url: "https://github.com/ruangustavo",
+				icon: GitHubIcon,
+			},
+			{
+				name: "LinkedIn",
+				url: "https://www.linkedin.com/in/ruan-gustavo/",
+				icon: LinkedInIcon,
+			},
+		],
+	},
+	education: [
+		{
+			school:
+				"Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte",
+			degree: "Curso Técnico em Informática",
+			start: "2020",
+			end: "2024",
+		},
+	],
+	work: [
+		{
+			company: "Legrand",
+			link: "https://www.legrand.com.br/",
+			badges: ["Remoto"],
+			title: "Desenvolvedor Back-end",
+			start: "2023",
+			end: "2024",
+			description:
+				"Implementei a funcionalidade de atualização automática de software. Tecnologias: Java, Docker, Git e Maven",
+		},
+		{
+			company: "iRede",
+			link: "https://irede.org.br/",
+			badges: ["Remoto"],
+			title: "Desenvolvedor Back-end",
+			logo: ClevertechLogo,
+			start: "2023",
+			end: "2023",
+			description:
+				"Assumi a responsabilidade de supervisionar o principal microsserviço da plataforma. Participei do desenvolvimento de um sistema de manipulação de mídia usando FFMPEG para  processar e gerenciar com eficiência as gravações de salas. Utilizei serviços como o Amazon S3 para armazenamento seguro de arquivos e o Amazon SQS para transmissão eficiente de dados. Realizei a migração de todas as rotas HTTP da biblioteca Gorilla/Mux para a Echo framework.",
+		},
+	],
+	skills: [
+		"Python",
+		"Django",
+		"TypeScript",
+		"React/Next.js",
+		"Docker",
+		"Tailwind CSS",
+		"Bootstrap",
+	],
+	projects: [
+		{
+			title: "Hackathon: Chat-bot API",
+			techStack: ["Python", "Fast API"],
+			description:
+				"Uma API alimentada por inteligência artificial para atendimento de clientes e integração com mecanismo de busca a um site de ofertas onlines",
+			link: {
+				label: "Hackathon: Chat-bot API",
+				href: "https://github.com/ruangustavo/hackathon-chatbot-api",
+			},
+		},
+		{
+			title: "Portal de Notícias",
+			techStack: ["Python", "Django", "Bootstrap"],
+			description:
+				"Um portal de notícias com sistema de autenticação e autorização de usuários, paginação, caching e mais",
+			link: {
+				label: "Portal de Notícias",
+				href: "https://github.com/ruangustavo/portal-de-noticias",
+			},
+		},
+		{
+			title: "IFRN Calc",
+			techStack: ["Typescript", "Next.js", "Tailwind CSS", "Shadcn UI"],
+			description:
+				"Uma plataforma calcula as médias necessárias para ser aprovado em todas as disciplina do IFRN. Tem integração OAuth com o portal da escola para calcular as médias de maneira automática.",
+			link: {
+				label: "IFRN Calc",
+				href: "https://github.com/ruangustavo/ifrncalc",
+			},
+		},
+	],
 } as const;
